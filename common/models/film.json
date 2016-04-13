@@ -1,0 +1,37 @@
+{
+  "name": "Film",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "rating": {
+      "type": "string"
+    },
+    "video_url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "synopsis": {
+      "type": "string",
+      "required": true
+    },
+    "thumb_url": {
+      "type": "string",
+      "required": true
+    },
+    "_id": {
+      "type": "string",
+      "id": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

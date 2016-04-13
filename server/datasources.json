@@ -1,0 +1,11 @@
+{
+  "mlab": {
+    "host": "ds019950.mlab.com",
+    "port": 19950,
+    "database": "dgtlmonk",
+    "password": "jaden1014",
+    "name": "mlab",
+    "connector": "mongodb",
+    "user": "dgtlmonk"
+  }
+}
